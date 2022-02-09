@@ -1,5 +1,5 @@
 {
-  "name": "react-avatar",
+  "name": "@loc-tax/react-avatar",
   "version": "4.0.0",
   "description": "Universal React avatar component makes it possible to generate avatars based on user information.",
   "main": "lib/index.js",
@@ -20,13 +20,12 @@
     "test": "npm -s run test:lint && npm -s run test:type-check",
     "test:lint": "eslint src",
     "test:type-check": "tsc -p tsconfig.json",
-    "postpublish": "npm -s run publish:docs",
     "publish:docs": "npm -s run build:demo && gh-pages -d build"
   },
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sitebase/react-avatar.git"
+    "url": "https://github.com/loc-tax/react-avatar.git"
   },
   "author": "Wim Mostmans <wim@sitebase.be>",
   "bugs": {
